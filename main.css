@@ -9,17 +9,15 @@
 	background-color: #1e1f26;
 	width: 100%;
 	height: 60px;
+	display: flex;
+	justify-content: flex-end;
 }
 .box{
-	height:1500px;
-	width: 720px;
-	background-color: #252646;
+	background-color: rgba(0, 0, 27, 0.7);
 	border-radius: 10px;
-	align-items: center;
-	margin: 0px 500px;
-	padding: 40px 0px 30px 50px;
-	opacity: 0.8;
-	
+	margin: auto;
+	padding: 40px;
+	max-width: 720px;
 }
 h2{
 	text-align: center;
@@ -36,21 +34,15 @@ p{
 	font-weight: 300;
 }
 form{
-	text-align: center;
 	display: inline-block;
-	width: 800px;
 	color: white;
-	display: inline;
-	border-radius: 5px;
-}
-input{
 	display: inline;
 }
 button{
 	background-color:#37af65;
 	color: white;
 	height: 40px;
-	width: 640px;
+	width: 100%;
 	border: none;
 	border-radius: 3px;
 	font-size: 18px;
@@ -63,7 +55,6 @@ button{
 	width: 160px;
 	border: none;
 	border-radius: 3px;
-	float: right;
 }
 .sign{
 	background-color: #47cf73;
@@ -72,7 +63,6 @@ button{
 	width: 100px;
 	border: none;
 	border-radius: 3px;
-	float: right;
 	font-weight: 500;
 }
 .login{
@@ -82,7 +72,6 @@ button{
 	width: 90px;
 	border: none;
 	border-radius: 3px;
-	float: right;
 }
 .header button{
 	margin: 10px 5px;
@@ -94,9 +83,41 @@ button{
 	background-attachment: fixed;
 }
 .transcolor{
-	background-color: #6161b1;
-	opacity: 0.9;
+	background: rgba(97, 97, 177, 0.9);
 	background-attachment: fixed;
 	height: 2000px;
 	width: 100%
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.textfield{
+	height: 40px;
+	border-radius: 5px;
+	width:100%;
+	padding: 6px 12px;
+}
+.top{
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 8px;
+}
+.wrap{
+	margin: 0px 0px 20px 0px;
+}
+.textarea{
+	border-radius: 5px;
+	width:100%;
+	padding: 6px;
+}
+.option{
+	font-size: 18px;
+	margin-left: 10px;
+}
+.op{
+	height:18px;
+	width: 18px;
+}
+.one{
+	margin-bottom: 8px;
 }
