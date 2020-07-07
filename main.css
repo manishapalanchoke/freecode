@@ -47,6 +47,7 @@ button{
 	border-radius: 3px;
 	font-size: 18px;
 	opacity: 1;
+	margin-bottom: 30px;
 }
 .change{
 	background-color:#444857;
@@ -120,4 +121,7 @@ button{
 }
 .one{
 	margin-bottom: 8px;
+}
+.textarea{
+	margin-bottom: 30px;
 }
